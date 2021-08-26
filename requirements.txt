@@ -1,0 +1,4 @@
+discord==1.7.3
+discord.py==1.7.3
+asyncpraw==7.4.0
+asyncprawcore==2.3.0
