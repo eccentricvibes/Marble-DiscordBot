@@ -1,7 +1,6 @@
 import webbrowser
 from pprint import pprint
 import json
-import steammarket as sm
 from discord import Client
 from discord.ext import commands
 import discord
