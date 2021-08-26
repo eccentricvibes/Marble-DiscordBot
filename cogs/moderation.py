@@ -26,7 +26,10 @@ class Moderation(commands.Cog):
         for member in ctx.guild.members:
             await ctx.send(f"{member} is in this server! Here is their member id: {member.id}")
             logging.info(f"Member id got: {member.id}")
-
+    
+    @bot.event
+    async def on_ready():
+    print("The bot is ready!")
 
     @commands.command()
     async def add(self, ctx, left: int, right: int):
