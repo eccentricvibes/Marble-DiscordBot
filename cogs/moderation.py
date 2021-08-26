@@ -29,7 +29,7 @@ class Moderation(commands.Cog):
     
     @bot.event
     async def on_ready():
-    print("The bot is ready!")
+        print("The bot is ready!")
 
     @commands.command()
     async def add(self, ctx, left: int, right: int):
