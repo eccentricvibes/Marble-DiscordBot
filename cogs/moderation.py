@@ -5,7 +5,6 @@ from discord import Client
 from discord.ext import commands
 import discord
 import requests
-from bs4 import BeautifulSoup
 import aiohttp
 import os
 import base64
