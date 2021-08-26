@@ -1,16 +1,12 @@
 import webbrowser
-from pprint import pprint
-import json
-from discord import Client
+# from pprint import pprint
+# import json
+# from discord import Client
 from discord.ext import commands
 import discord
-import requests
-import aiohttp
 import os
 import base64
-from cryptography.fernet import Fernet
 import asyncpraw
-from asyncpraw import Reddit
 import time
 import random
 import logging
